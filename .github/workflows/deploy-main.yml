@@ -12,7 +12,6 @@ jobs:
       - name: Connect deploy key
         uses: cloudtype-github-actions/connect@v1
         with:
-          node-version: '16'
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           ghtoken: ${{ secrets.GHP_TOKEN }}
       - name: Deploy
